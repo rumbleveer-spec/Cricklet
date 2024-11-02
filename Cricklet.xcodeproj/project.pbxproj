@@ -11,6 +11,17 @@
 		B3B712B22CD699B700573BEB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B712B12CD699B700573BEB /* ContentView.swift */; };
 		B3B712B42CD699B700573BEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3B712B32CD699B700573BEB /* Assets.xcassets */; };
 		B3B712B72CD699B700573BEB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3B712B62CD699B700573BEB /* Preview Assets.xcassets */; };
+		B3B712C12CD69A8D00573BEB /* MatchDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B712C02CD69A8D00573BEB /* MatchDetailView.swift */; };
+		B3B712C32CD69ABA00573BEB /* BattingPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B712C22CD69ABA00573BEB /* BattingPlayer.swift */; };
+		B3B712C52CD69AC300573BEB /* BowlingPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B712C42CD69AC300573BEB /* BowlingPlayer.swift */; };
+		B3B712C72CD69ACA00573BEB /* MatchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B712C62CD69ACA00573BEB /* MatchData.swift */; };
+		B3B712C92CD69B8700573BEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B712C82CD69B8700573BEB /* AppDelegate.swift */; };
+		B3B712CB2CD69BDA00573BEB /* CrickletAppMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B712CA2CD69BDA00573BEB /* CrickletAppMenu.swift */; };
+		B3B712CD2CD69C0800573BEB /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B712CC2CD69C0800573BEB /* ErrorView.swift */; };
+		B3B712CF2CD69C2400573BEB /* BattingPlayerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B712CE2CD69C2400573BEB /* BattingPlayerRow.swift */; };
+		B3B712D12CD69C2F00573BEB /* BattingHeaderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B712D02CD69C2F00573BEB /* BattingHeaderRow.swift */; };
+		B3B712D32CD69C3C00573BEB /* BowlingHeaderRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B712D22CD69C3C00573BEB /* BowlingHeaderRow.swift */; };
+		B3B712D52CD69C4300573BEB /* BowlingPlayerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3B712D42CD69C4300573BEB /* BowlingPlayerRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +31,17 @@
 		B3B712B32CD699B700573BEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3B712B62CD699B700573BEB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B3B712B82CD699B700573BEB /* Cricklet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cricklet.entitlements; sourceTree = "<group>"; };
+		B3B712C02CD69A8D00573BEB /* MatchDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchDetailView.swift; sourceTree = "<group>"; };
+		B3B712C22CD69ABA00573BEB /* BattingPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattingPlayer.swift; sourceTree = "<group>"; };
+		B3B712C42CD69AC300573BEB /* BowlingPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlingPlayer.swift; sourceTree = "<group>"; };
+		B3B712C62CD69ACA00573BEB /* MatchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchData.swift; sourceTree = "<group>"; };
+		B3B712C82CD69B8700573BEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B3B712CA2CD69BDA00573BEB /* CrickletAppMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrickletAppMenu.swift; sourceTree = "<group>"; };
+		B3B712CC2CD69C0800573BEB /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		B3B712CE2CD69C2400573BEB /* BattingPlayerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattingPlayerRow.swift; sourceTree = "<group>"; };
+		B3B712D02CD69C2F00573BEB /* BattingHeaderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BattingHeaderRow.swift; sourceTree = "<group>"; };
+		B3B712D22CD69C3C00573BEB /* BowlingHeaderRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlingHeaderRow.swift; sourceTree = "<group>"; };
+		B3B712D42CD69C4300573BEB /* BowlingPlayerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BowlingPlayerRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +74,15 @@
 		B3B712AE2CD699B700573BEB /* Cricklet */ = {
 			isa = PBXGroup;
 			children = (
+				B3B712BF2CD69A6400573BEB /* Views */,
+				B3B712BE2CD69A5C00573BEB /* Models */,
 				B3B712AF2CD699B700573BEB /* CrickletApp.swift */,
 				B3B712B12CD699B700573BEB /* ContentView.swift */,
 				B3B712B32CD699B700573BEB /* Assets.xcassets */,
 				B3B712B82CD699B700573BEB /* Cricklet.entitlements */,
 				B3B712B52CD699B700573BEB /* Preview Content */,
+				B3B712C82CD69B8700573BEB /* AppDelegate.swift */,
+				B3B712CA2CD69BDA00573BEB /* CrickletAppMenu.swift */,
 			);
 			path = Cricklet;
 			sourceTree = "<group>";
@@ -67,6 +93,29 @@
 				B3B712B62CD699B700573BEB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B3B712BE2CD69A5C00573BEB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B3B712C22CD69ABA00573BEB /* BattingPlayer.swift */,
+				B3B712C42CD69AC300573BEB /* BowlingPlayer.swift */,
+				B3B712C62CD69ACA00573BEB /* MatchData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B3B712BF2CD69A6400573BEB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B3B712C02CD69A8D00573BEB /* MatchDetailView.swift */,
+				B3B712CC2CD69C0800573BEB /* ErrorView.swift */,
+				B3B712CE2CD69C2400573BEB /* BattingPlayerRow.swift */,
+				B3B712D02CD69C2F00573BEB /* BattingHeaderRow.swift */,
+				B3B712D22CD69C3C00573BEB /* BowlingHeaderRow.swift */,
+				B3B712D42CD69C4300573BEB /* BowlingPlayerRow.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +188,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3B712C32CD69ABA00573BEB /* BattingPlayer.swift in Sources */,
+				B3B712C52CD69AC300573BEB /* BowlingPlayer.swift in Sources */,
 				B3B712B22CD699B700573BEB /* ContentView.swift in Sources */,
+				B3B712CF2CD69C2400573BEB /* BattingPlayerRow.swift in Sources */,
+				B3B712D32CD69C3C00573BEB /* BowlingHeaderRow.swift in Sources */,
+				B3B712C72CD69ACA00573BEB /* MatchData.swift in Sources */,
+				B3B712D12CD69C2F00573BEB /* BattingHeaderRow.swift in Sources */,
+				B3B712C92CD69B8700573BEB /* AppDelegate.swift in Sources */,
+				B3B712C12CD69A8D00573BEB /* MatchDetailView.swift in Sources */,
+				B3B712D52CD69C4300573BEB /* BowlingPlayerRow.swift in Sources */,
 				B3B712B02CD699B700573BEB /* CrickletApp.swift in Sources */,
+				B3B712CD2CD69C0800573BEB /* ErrorView.swift in Sources */,
+				B3B712CB2CD69BDA00573BEB /* CrickletAppMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
