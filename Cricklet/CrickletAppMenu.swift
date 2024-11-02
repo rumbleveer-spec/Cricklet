@@ -68,6 +68,7 @@ class CrickletAppMenu: NSObject {
         return menu
     }
     
+    // TODO: ErrorView handling pending
     private func fetchLiveMatches() {
         guard !isLoading, let url = URL(string: apiURL) else { return }
         
